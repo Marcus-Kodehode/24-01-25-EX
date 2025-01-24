@@ -1,0 +1,140 @@
+/* Setter bakgrunnsbilde for body-elementet */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/mountains.jpg');  /* Om du ønsker et bakgrunnsbilde */
+    background-size: cover;  /* Bakgrunnsbildet dekker hele skjermen */
+}
+
+  /* Footer-styling */
+footer {
+    position: fixed; /* Gjør at footeren er fast nederst på siden */
+    bottom: 0; /* Plasserer footeren helt nederst */
+    left: 0; /* Sørger for at footeren strekker seg helt til venstre */
+    width: 100%; /* Setter bredden til 100%, slik at footeren tar hele bredden på skjermen */
+    background-color: #333; /* Bakgrunnsfarge på footeren */
+    color:#D17F4D; /* Tekstfarge */
+    text-align: center; /* Sentrerer teksten */
+    padding: 10px 0; /* Litt polstring for å gi footeren litt plass rundt teksten */
+    display: flex;  /* Gjør at elementene inne i <footer> vises horisontalt på én linje */
+    justify-content: center;  /* Plasserer elementene på hver sin side */
+    align-items: center;  /* Sentrerer innholdet vertikalt */
+    gap: 20px;  /* Legger til litt mellomrom mellom de to <p>-elementene */
+}
+
+    
+  /* Legger til responsiv styling for footeren */
+  footer p {
+    margin: 0; /* Fjerner marginen for å hindre unødvendig plass */
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h1    {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #003366;   /*Mørkeblå / Marineblå:*/
+    /* color: #F5F5DC; */   /*Kremhvit / Lys beige:*/
+    /* color:#333333; */    /*Mørk grå:*/
+    /* color: #D17F4D; */   /*Rødbrun / Terracotta:*/
+    /* color: #D4AF37; */   /*Gullfarget:*/
+    /* color:#40E0D0; */    /*Lys aqua / Dyp turkis:*/
+
+
+  }
+
+  a {
+    color:#F5F5DC ;
+  }
+
+  .side-boks {
+    position: fixed;        /* Fester boksen på skjermen */
+    top: 20%;               /* Plasserer boksen litt ned fra toppen */
+    width: 250px;           /* Setter bredden på boksen (justert litt) */
+    height: 50vh;           /* Setter høyden til ca. halvparten av skjermens høyde */
+    background-color: rgba(240, 240, 240, 0.8);  /* Økt opasitet for bedre synlighet av bakgrunnsbildet */
+    border-radius: 15px;    /* Gjør hjørnene runde for en rundere boks */
+    border-right: 2px solid #333; /* Valgfritt, legger til en kant på høyre side */
+    padding: 15px;          /* Litt avstand rundt innholdet i boksen */
+    box-sizing: border-box; /* Inkluderer padding og border i total størrelse */
+    opacity: 0.9;           /* Gjør boksen delvis gjennomsiktig for å se bakgrunn bedre */
+}
+
+.venstre {
+    left: 100px;  /* Flytter boksen på venstre side av skjermen */
+}
+
+.hoyre {
+    right: 100px; /* Flytter boksen på høyre side av skjermen */
+}
+
+.contact-boks.sentral {
+    position: absolute;  /* Plasserer boksen relativt til body */
+    top: 50%;            /* Plasserer boksen vertikalt i midten */
+    left: 50%;           /* Plasserer boksen horisontalt i midten */
+    width: 225px;        /* Mindre bredde på boksen */
+    height: 150px;       /* Mindre høyde på boksen */
+    background-color: rgba(240, 240, 240, 0.8);  /* Økt opasitet for bakgrunnsbildet */
+    border-radius: 15px;  /* Gjør hjørnene runde for en rundere boks */
+    padding: 10px;        /* Litt avstand rundt innholdet i boksen */
+    box-sizing: border-box; /* Inkluderer padding og border i total størrelse */
+    opacity: 0.9;         /* Gjør boksen delvis gjennomsiktig */
+    transform: translate(-50%, -50%);  /* Sentrerer boksen nøyaktig i midten */
+}
+
+.other-boks.sentral {
+    position: absolute;  /* Plasserer boksen relativt til body */
+    top: 50%;            /* Plasserer boksen vertikalt i midten */
+    left: 50%;           /* Plasserer boksen horisontalt i midten */
+    width: 225px;        /* Mindre bredde på boksen */
+    height: 150px;       /* Mindre høyde på boksen */
+    background-color: rgba(240, 240, 240, 0.8);  /* Økt opasitet for bakgrunnsbildet */
+    border-radius: 15px;  /* Gjør hjørnene runde for en rundere boks */
+    padding: 10px;        /* Litt avstand rundt innholdet i boksen */
+    box-sizing: border-box; /* Inkluderer padding og border i total størrelse */
+    opacity: 0.9;         /* Gjør boksen delvis gjennomsiktig */
+    transform: translate(-50%, -50%);  /* Sentrerer boksen nøyaktig i midten */
+}
+
+/* Containeren som inneholder bildet, sentreres og får en rundere form */
+.bilde-container {
+    width: 100%;                /* Får containeren til å fylle hele tilgjengelige bredde */
+    max-width: 400px;           /* Maksimal bredde på containeren (kan justeres etter behov) */
+    display: flex;              /* Bruker flexbox for å sentrere innholdet */
+    justify-content: center;    /* Sentraliserer bildet horisontalt innenfor containeren */
+    align-items: center;        /* Sentraliserer bildet vertikalt innenfor containeren */
+    padding: 20px;              /* Gir containeren litt luft rundt bildet */
+    margin: 0 auto;             /* Sentraliserer containeren horisontalt på siden */
+    position: relative;         /* Gjør at vi kan bruke top for å justere posisjoneringen */
+    top: 30%;                   /* Plasserer containeren litt ned på skjermen (juster etter behov) */
+    background: rgba(0, 0, 0, 0.3);  /* Legger til en svak, gjennomsiktig bakgrunnsfarge i containeren */
+    border-radius: 25px;        /* Gir containeren rundere kanter */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);  /* Myk skygge rundt containeren for dybde */
+}
+
+.bilde-container img {
+    width: 100%;                /* Bildet skal ta opp hele bredden av containeren */
+    height: auto;               /* Bevarer bildeproporsjonene */
+    max-height: 300px;          /* Maksimal høyde på bildet for å hindre at det blir for høyt */
+    object-fit: cover;          /* Sørger for at bildet fyller containeren uten å bli forvrengt */
+    object-position: center 25%; /* Plasserer bildet slik at toppen er synlig, men ikke for mye */
+    border-radius: 15px;        /* Gjør bildet rundere */
+    opacity: 0.9;               /* Gjør bildet litt gjennomsiktig for å myke opp utseendet */
+    transition: transform 0.3s ease;  /* Legger til en overgangseffekt for å animere bildet ved hover */
+}
+
+/* Effekten som skjer når du holder musepekeren over bildet */
+.bilde-container img:hover {
+    transform: scale(1.05);     /* Forstørrer bildet litt når man holder musepekeren over */
+}
+
+/*Color Scheme for the webpage*/
+  /* color: #003366;   Mørkeblå / Marineblå: */
+    /* color: #F5F5DC; */   /*Kremhvit / Lys beige:*/
+    /* color:#333333; */    /*Mørk grå:*/
+    /* color: #D17F4D; */   /*Rødbrun / Terracotta:*/
+    /* color: #D4AF37; */   /*Gullfarget:*/
+    /* color:#40E0D0; */    /*Lys aqua / Dyp turkis:*/
+  
+  
