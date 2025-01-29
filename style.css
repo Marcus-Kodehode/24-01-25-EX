@@ -4,13 +4,16 @@ body {
     padding: 0;
     background-image: url('images/mountains.jpg');  /* Om du ønsker et bakgrunnsbilde */
     background-size: cover;  /* Bakgrunnsbildet dekker hele skjermen */
+    
+}
+
+main  {
+  min-height: 100vh;
 }
 
   /* Footer-styling */
 footer {
-    position: fixed; /* Gjør at footeren er fast nederst på siden */
-    bottom: 0; /* Plasserer footeren helt nederst */
-    left: 0; /* Sørger for at footeren strekker seg helt til venstre */
+
     width: 100%; /* Setter bredden til 100%, slik at footeren tar hele bredden på skjermen */
     background-color: #333; /* Bakgrunnsfarge på footeren */
     color:#D17F4D; /* Tekstfarge */
@@ -34,16 +37,29 @@ footer {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
-    color: #003366;   /*Mørkeblå / Marineblå:*/
+    color: #003366;
+    text-decoration:double;
+  }
+
+  h2  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color:#003366;
+  }
+
+  p {
+    color: #D17F4D;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+    /* color: #003366; */    /*   Mørkeblå / Marineblå:*/
     /* color: #F5F5DC; */   /*Kremhvit / Lys beige:*/
     /* color:#333333; */    /*Mørk grå:*/
     /* color: #D17F4D; */   /*Rødbrun / Terracotta:*/
     /* color: #D4AF37; */   /*Gullfarget:*/
     /* color:#40E0D0; */    /*Lys aqua / Dyp turkis:*/
-
-
-  }
-
+    
   a {
     color:#F5F5DC ;
   }
@@ -70,7 +86,7 @@ footer {
 }
 
 .contact-boks.sentral {
-    position: absolute;  /* Plasserer boksen relativt til body */
+    position: sticky;  /* Plasserer boksen relativt til body */
     top: 50%;            /* Plasserer boksen vertikalt i midten */
     left: 50%;           /* Plasserer boksen horisontalt i midten */
     width: 225px;        /* Mindre bredde på boksen */
@@ -84,7 +100,7 @@ footer {
 }
 
 .other-boks.sentral {
-    position: absolute;  /* Plasserer boksen relativt til body */
+    position: sticky;  /* Plasserer boksen relativt til body */
     top: 50%;            /* Plasserer boksen vertikalt i midten */
     left: 50%;           /* Plasserer boksen horisontalt i midten */
     width: 225px;        /* Mindre bredde på boksen */
