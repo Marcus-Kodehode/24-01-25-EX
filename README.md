@@ -4,4 +4,4 @@
 
 <p>EDIT: også lagt ved kommentarer på HTML filene</p>
 
-<p>EDIT EDIT: lagt til forenklede kommentarer, nye sider, nye bilder</p>
+<p>EDIT EDIT: lagt til forenklede kommentarer, nye sider, nytt bilde</p>
