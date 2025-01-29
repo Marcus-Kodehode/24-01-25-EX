@@ -1,0 +1,11 @@
+.bilde-container {
+    width: 100%;               /* Sett ønsket størrelse */
+    max-width: 400px;          /* Maksimal bredde for bildet */
+    margin: 0 auto;            /* Sentraliser bildet */
+    display: block;            /* Sørg for at bildet er blokk-element */
+    transition: transform 0.3s ease; /* Legger til en overgangseffekt for hover */
+}
+
+.bilde-container:hover {
+    transform: scale(1.05);    /* Forstørrer bildet når du holder musepekeren over */
+}
