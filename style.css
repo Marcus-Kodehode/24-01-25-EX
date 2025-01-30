@@ -104,7 +104,7 @@ a {
   top: 50%; /* Plasserer boksen vertikalt i midten */
   left: 50%; /* Plasserer boksen horisontalt i midten */
   width: 225px; /* Bredde på boksen */
-  height: 150px; /* Høyde på boksen */
+  height: 175px; /* Høyde på boksen */
   background-color: rgba(240, 240, 240, 0.8); /* Økt opasitet for bakgrunnsbildet */
   border-radius: 15px; /* Rundere hjørner på boksen */
   padding: 10px; /* Litt avstand rundt innholdet i boksen */
