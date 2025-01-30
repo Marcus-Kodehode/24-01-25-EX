@@ -51,7 +51,7 @@ h5  {
 }
 
 p {
-  color: #D17F4D; /* Farge på paragrafen (rødbrun / terracotta) */
+  color: #333333; /* Farge på paragrafen (rødbrun / terracotta) */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
 }
@@ -85,7 +85,7 @@ a {
 
 /* Sentralisert boks for kontaktinformasjon */
 .contact-boks.sentral {
-  position: sticky; /* Holder boksen på skjermen mens du ruller */
+  position: fixed; /* Holder boksen på skjermen mens du ruller */
   top: 50%; /* Plasserer boksen vertikalt i midten */
   left: 50%; /* Plasserer boksen horisontalt i midten */
   width: 225px; /* Bredde på boksen */
