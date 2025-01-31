@@ -61,11 +61,12 @@ a {
   color: #F5F5DC; /* Kremhvit tekstfarge for lenker */
 }
 
+/* Styling for side-bokser */
 .side-boks {
   position: fixed; /* Fester boksen på skjermen */
   top: 13%; /* Plasserer boksen litt ned fra toppen */
   width: 250px; /* Setter bredden på boksen */
-  height: 80vh; /* Setter høyden til ca. 80% av skjermens høyde */
+  height: 80vh; /* Setter høyden til ca. 70% av skjermens høyde */
   background-color: rgba(240, 240, 240, 0.8); /* Økt opasitet for bedre synlighet av bakgrunnsbildet */
   border-radius: 15px; /* Rundere hjørner på boksen */
   border-right: 2px solid #333; /* En tynn kant på høyre side av boksen */
@@ -73,7 +74,6 @@ a {
   box-sizing: border-box; /* Inkluderer padding og border i total størrelse */
   opacity: 0.9; /* Litt gjennomsiktig boks for å vise bakgrunnsbildet */
 }
-
 
 .venstre {
   left: 100px; /* Plasserer boksen på venstre side av skjermen */
